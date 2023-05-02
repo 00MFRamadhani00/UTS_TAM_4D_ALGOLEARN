@@ -1,7 +1,6 @@
 <h1> ALGOLEARN </h1>
 
-AlgoLearn merupakan sebuah aplikasi yang ditujukan kepada para pelajar dalam memahami cara kerja suatu algoritma program. <br>
-Mempelajari algoritma sangat penting karena dapat memaksimalkan programmer untuk meningkatkan kinerja program yang di kerjakan.
+AlgoLearn merupakan sebuah aplikasi yang ditujukan kepada para pelajar dalam memahami cara kerja suatu algoritma program. Mempelajari algoritma sangat penting karena dapat memaksimalkan programmer untuk meningkatkan kinerja program yang di kerjakan.
 
 Proyek ini dikembangkan oleh:
 <table>
