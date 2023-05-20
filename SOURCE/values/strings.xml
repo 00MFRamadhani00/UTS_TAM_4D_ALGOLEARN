@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AlgoLearn</string>
+    <string name="itemname">ItemName</string>
+    <string name="countitem">CountItem</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="BubbleSort">Bubble Sort</string>
+    <string name="BubbleSort_Deskripsi">Bubble Sort adalah metode pengurutan algoritma dengan cara melakukan penukaran data secara terus menerus sampai bisa dipastikan dalam suatu iterasi tertentu tidak ada lagi perubahan/penukaran</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+</resources>
