@@ -1,6 +1,5 @@
 package com.fadhilah.algolearn;
 
-import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
@@ -17,7 +16,7 @@ public class SortBubbleSort extends AppCompatActivity implements View.OnClickLis
     private ImageView imageView;
     private Context context;
     Handler handler;
-    Button btnPauseDanPlay;
+    Button btnPauseDanPlay, btnBackToSubMenu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,25 +24,33 @@ public class SortBubbleSort extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_sort_bubble_sort);
 
         btnPauseDanPlay = (Button) findViewById(R.id.btn_pauseDanPlay);
+        btnBackToSubMenu = (Button) findViewById(R.id.btn_backToSubMenu);
         imageView = (ImageView) findViewById(R.id.gifImageView_konten);
         Glide.with(this).load(R.drawable.bubble_sort_gif).into(imageView);
 
-        handler = new Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent intent = new Intent(SortBubbleSort.this,SortBubbleSort.class);
-                startActivity(intent);
-                finish();
-            }
-        }, 15616);
+//        handler = new Handler();
+//        handler.postDelayed(new Runnable() {
+//            @Override
+//            public void run() {
+//                Intent intent = new Intent(SortBubbleSort.this,SortBubbleSort.class);
+//                startActivity(intent);
+//                finish();
+//            }
+//        }, 15616);
 
         btnPauseDanPlay.setOnClickListener(this);
+        btnBackToSubMenu.setOnClickListener(this);
     }
 
     public void onClick(View view){
         Intent i;
-        i = new Intent(this, SortBubbleSort.class);
-        startActivity(i);
+        if(view.getId() == R.id.btn_backToSubMenu){
+            i = new Intent(this, MenuUtamaSub.class);
+            startActivity(i);
+        }
+        else if(view.getId() == R.id.btn_pauseDanPlay){
+            i = new Intent(this, SortBubbleSortPause.class);
+            startActivity(i);
+        }
     }
 }

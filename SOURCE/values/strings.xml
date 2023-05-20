@@ -7,5 +7,6 @@
     <string name="BubbleSort">Bubble Sort</string>
     <string name="BubbleSort_Deskripsi">Bubble Sort adalah metode pengurutan algoritma dengan cara melakukan penukaran data secara terus menerus sampai bisa dipastikan dalam suatu iterasi tertentu tidak ada lagi perubahan/penukaran</string>
     <string name="play">Play</string>
-    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="back">Back</string>
 </resources>

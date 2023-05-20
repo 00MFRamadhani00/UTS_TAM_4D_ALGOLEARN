@@ -7,6 +7,14 @@
     tools:context=".MenuUtamaSub"
     android:orientation="vertical"
     android:background="#0A121C">
+        <Button
+            android:id="@+id/btn_backToMenu"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20sp"
+            android:text="@string/back"
+            android:layout_marginVertical="20sp"/>
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="130dp"

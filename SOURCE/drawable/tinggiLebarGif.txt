@@ -1,0 +1,8 @@
+Left: 
+33
+Top: 
+232
+Width: 
+652
+Height: 
+367

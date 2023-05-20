@@ -42,7 +42,7 @@ public class MenuUtamaSubAdapter extends RecyclerView.Adapter<MenuUtamaSubAdapte
             @Override
             public void onClick(View v) {
                 Intent i;
-                i = new Intent(context, SortBubbleSort.class);
+                i = new Intent(context, SortBubbleSortPause.class);
                 context.startActivity(i);
             }
         });
